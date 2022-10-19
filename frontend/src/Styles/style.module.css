@@ -1,0 +1,45 @@
+.main {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app {
+  border: 1px solid red;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  display: grid;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  padding: 18px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  font-size: larger;
+  background: linear-gradient(to right, #1c06db 0%, #3c71d4 100%);
+}
+
+.form {
+  padding: 60px;
+}
+
+.image {
+  width: 90px;
+  height: 90px;
+}
+
+.text {
+  font-size: 5xl;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
